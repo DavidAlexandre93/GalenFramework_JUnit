@@ -1,0 +1,324 @@
+{
+  "testId" : "1-crhomepage-layout",
+  "name" : "CRhomepage layout",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check CRhomepage layout",
+      "status" : "info",
+      "time" : 1549304224761,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Header",
+        "place" : {
+          "filePath" : "specs/homepage.gspec",
+          "lineNumber" : 23
+        },
+        "objects" : [ {
+          "name" : "header.logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 37
+            },
+            "name" : "image file homepage-dump/objects/header.logo.png, map-filter denoise 2, error 5px",
+            "highlight" : [ "header.logo" ]
+          } ]
+        }, {
+          "name" : "header.caption",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 46
+            },
+            "name" : "text is \"Sample Website for Galen Framework\"",
+            "highlight" : [ "header.caption" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Menu",
+        "place" : {
+          "filePath" : "specs/homepage.gspec",
+          "lineNumber" : 50
+        },
+        "objects" : [ {
+          "name" : "menu",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 53
+            },
+            "name" : "above footer 450px",
+            "meta" : [ {
+              "from" : {
+                "object" : "menu",
+                "edge" : "bottom"
+              },
+              "to" : {
+                "object" : "footer",
+                "edge" : "top"
+              },
+              "expectedDistance" : "450px",
+              "realDistance" : "450px"
+            } ],
+            "highlight" : [ "menu", "footer" ]
+          } ]
+        }, {
+          "name" : "menu-item-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 59
+            },
+            "name" : "text is \"Home\"",
+            "highlight" : [ "menu-item-1" ]
+          } ]
+        }, {
+          "name" : "menu-item-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 71
+            },
+            "name" : "text is \"My Notes\"",
+            "highlight" : [ "menu-item-2" ]
+          } ]
+        }, {
+          "name" : "menu-item-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 83
+            },
+            "name" : "text is \"About\"",
+            "highlight" : [ "menu-item-3" ]
+          } ]
+        }, {
+          "name" : "menu-item-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 95
+            },
+            "name" : "text is \"Contact\"",
+            "highlight" : [ "menu-item-4" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Content",
+        "place" : {
+          "filePath" : "specs/homepage.gspec",
+          "lineNumber" : 105
+        },
+        "objects" : [ {
+          "name" : "loginButton",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 111
+            },
+            "name" : "inside content 50px left, 772px right, 257px top, 148px bottom",
+            "meta" : [ {
+              "from" : {
+                "object" : "loginButton",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "content",
+                "edge" : "left"
+              },
+              "expectedDistance" : "50px",
+              "realDistance" : "50px"
+            }, {
+              "from" : {
+                "object" : "loginButton",
+                "edge" : "right"
+              },
+              "to" : {
+                "object" : "content",
+                "edge" : "right"
+              },
+              "expectedDistance" : "772px",
+              "realDistance" : "772px"
+            }, {
+              "from" : {
+                "object" : "loginButton",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "content",
+                "edge" : "top"
+              },
+              "expectedDistance" : "257px",
+              "realDistance" : "257px"
+            }, {
+              "from" : {
+                "object" : "loginButton",
+                "edge" : "bottom"
+              },
+              "to" : {
+                "object" : "content",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "148px",
+              "realDistance" : "148px"
+            } ],
+            "highlight" : [ "loginButton", "content" ]
+          } ]
+        }, {
+          "name" : "content.welcome",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 114
+            },
+            "name" : "css font-weight matches \"500\"",
+            "highlight" : [ "content.welcome" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 115
+            },
+            "name" : "css font-size is \"63px\"",
+            "highlight" : [ "content.welcome" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 116
+            },
+            "name" : "css font-family matches \".*Helvetica Neue.*\"",
+            "highlight" : [ "content.welcome" ]
+          } ]
+        }, {
+          "name" : "welcome-page",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 121
+            },
+            "name" : "text is \"This app is used as a playground for Galen Framework\"",
+            "highlight" : [ "welcome-page" ]
+          } ]
+        }, {
+          "name" : "content.Text",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 124
+            },
+            "name" : "text is \"testuser@example.com\"",
+            "highlight" : [ "content.Text" ]
+          } ]
+        }, {
+          "name" : "content-color",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 128
+            },
+            "name" : "color-scheme 0 % #F5F5F5, 0 % white",
+            "highlight" : [ "content-color" ]
+          } ]
+        } ]
+      }, {
+        "name" : "Footer",
+        "place" : {
+          "filePath" : "specs/homepage.gspec",
+          "lineNumber" : 131
+        },
+        "objects" : [ {
+          "name" : "footer",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 133
+            },
+            "name" : "text is \"Copyright (c) 2015\"",
+            "highlight" : [ "footer" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/homepage.gspec",
+              "lineNumber" : 135
+            },
+            "name" : "height 150px",
+            "meta" : [ {
+              "from" : {
+                "object" : "footer",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "footer",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "150px",
+              "realDistance" : "150px"
+            } ],
+            "highlight" : [ "footer" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "menu-item-2" : {
+          "area" : [ 145, 70, 111, 63 ]
+        },
+        "footer" : {
+          "area" : [ 0, 583, 991, 150 ]
+        },
+        "menu-item-3" : {
+          "area" : [ 256, 70, 100, 63 ]
+        },
+        "menu-item-1" : {
+          "area" : [ 45, 70, 100, 63 ]
+        },
+        "welcome-page" : {
+          "area" : [ 95, 300, 800, 30 ]
+        },
+        "menu-item-4" : {
+          "area" : [ 356, 70, 100, 63 ]
+        },
+        "header.caption" : {
+          "area" : [ 115, 20, 610, 39 ]
+        },
+        "menu" : {
+          "area" : [ 0, 70, 991, 63 ]
+        },
+        "content-color" : {
+          "area" : [ 65, 153, 860, 345 ]
+        },
+        "content" : {
+          "area" : [ 45, 133, 900, 450 ]
+        },
+        "content.Text" : {
+          "area" : [ 425, 348, 236, 23 ]
+        },
+        "header.logo" : {
+          "area" : [ 45, 13, 48, 48 ]
+        },
+        "loginButton" : {
+          "area" : [ 95, 390, 78, 45 ]
+        },
+        "content.welcome" : {
+          "area" : [ 95, 221, 800, 69 ]
+        }
+      },
+      "screenshot" : "layout-5-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

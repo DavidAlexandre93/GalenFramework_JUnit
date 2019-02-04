@@ -1,0 +1,39 @@
+{
+  "testId" : "1-ffeventteste-layout",
+  "name" : "FFeventTeste layout",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check FFeventTest layout",
+      "status" : "info",
+      "time" : 1549304250847,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Content",
+        "place" : {
+          "filePath" : "specs/eventTeste.gspec",
+          "lineNumber" : 5
+        },
+        "objects" : [ {
+          "name" : "btn-primary",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "specs/eventTeste.gspec",
+              "lineNumber" : 7
+            },
+            "name" : "color-scheme 70 to 80 % #22A30B, 1 to 4 % white",
+            "highlight" : [ "btn-primary" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "btn-primary" : {
+          "area" : [ 67, 366, 106, 45 ]
+        }
+      },
+      "screenshot" : "layout-10-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

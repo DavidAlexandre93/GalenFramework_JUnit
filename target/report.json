@@ -1,0 +1,17 @@
+{
+  "tests" : [ {
+    "name" : "FFeventTeste layout",
+    "startedAt" : 1549304250847,
+    "endedAt" : 1549304250847,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 1,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 1
+    },
+    "testId" : "1-ffeventteste-layout",
+    "duration" : 0,
+    "failed" : false
+  } ]
+}
